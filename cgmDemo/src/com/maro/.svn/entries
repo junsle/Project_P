@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://vcs.dev.kthcorp.com:8443/pudding"
+   revision="16095"
+   last-author="junsle"
+   url="https://vcs.dev.kthcorp.com:8443/pudding/trunk/GCM/src/com/maro"
+   committed-rev="16095"
+   kind="dir"
+   committed-date="2012-11-26T05:10:53.656000Z"/>
+<entry
+   name="cgmdemo"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://vcs.dev.kthcorp.com:8443/pudding"
+   name=""
+   revision="16076"
+   last-author="junsle"
+   uuid="442c5d9f-f790-42a1-a49c-18dda7757fa4"
+   url="https://vcs.dev.kthcorp.com:8443/pudding/trunk/GCM"
+   committed-rev="16076"
+   kind="dir"
+   committed-date="2012-11-21T06:29:57.947742Z"/>
+<entry
+   name=".classpath"
+   revision="16077"
+   checksum="f79ca1c4e7c597cf780dac0a20c2ae44"
+   last-author="junsle"
+   committed-rev="16077"
+   text-time="2012-11-21T06:26:59.933000Z"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"/>
+<entry
+   name=".project"
+   revision="16077"
+   checksum="6b5a8f4e32c7ef4d24c83df5ca56a36b"
+   last-author="junsle"
+   committed-rev="16077"
+   text-time="2012-11-21T05:03:58.653000Z"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"/>
+<entry
+   name="AndroidManifest.xml"
+   revision="16095"
+   checksum="14cc685f81d0cecf5790ad721fc3bba9"
+   last-author="junsle"
+   committed-rev="16095"
+   text-time="2012-11-26T04:47:46.521000Z"
+   kind="file"
+   committed-date="2012-11-26T05:10:53.656000Z"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="gen"
+   kind="dir"/>
+<entry
+   name="ic_launcher-web.png"
+   revision="16077"
+   checksum="bca8a5efa7f346ceaf1054e44f00202c"
+   last-author="junsle"
+   committed-rev="16077"
+   text-time="2012-11-21T05:03:59.623000Z"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"
+   prop-time="2012-11-21T06:32:31.653000Z"/>
+<entry
+   name="libs"
+   kind="dir"/>
+<entry
+   name="proguard-project.txt"
+   revision="16077"
+   checksum="18bfe77c342b4698f1cef19cf8d918e2"
+   last-author="junsle"
+   committed-rev="16077"
+   text-time="2012-11-21T05:03:58.687000Z"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"/>
+<entry
+   name="project.properties"
+   revision="16077"
+   checksum="9c57dcdf382c16ec1e6ff4d497fa3a84"
+   last-author="junsle"
+   committed-rev="16077"
+   text-time="2012-11-21T05:04:03.716000Z"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>

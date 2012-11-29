@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://vcs.dev.kthcorp.com:8443/pudding"
+   revision="16077"
+   last-author="junsle"
+   url="https://vcs.dev.kthcorp.com:8443/pudding/trunk/GCM/res/drawable-mdpi"
+   committed-rev="16077"
+   kind="dir"
+   committed-date="2012-11-21T06:33:12.213000Z"/>
+<entry
+   name="ic_launcher.png"
+   checksum="66833cd53180d3d04ba2a4f319510d41"
+   last-author="junsle"
+   text-time="2012-11-21T05:03:59.559000Z"
+   committed-rev="16077"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"
+   prop-time="2012-11-21T06:32:31.449000Z"/>
+</wc-entries>

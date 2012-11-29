@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://vcs.dev.kthcorp.com:8443/pudding"
+   revision="16077"
+   last-author="junsle"
+   url="https://vcs.dev.kthcorp.com:8443/pudding/trunk/GCM/res/layout"
+   committed-rev="16077"
+   kind="dir"
+   committed-date="2012-11-21T06:33:12.213000Z"/>
+<entry
+   name="activity_main.xml"
+   checksum="fac515d42b05ad936e0d269eb2941827"
+   last-author="junsle"
+   text-time="2012-11-21T05:21:31.959000Z"
+   committed-rev="16077"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"/>
+</wc-entries>

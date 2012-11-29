@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://vcs.dev.kthcorp.com:8443/pudding"
+   revision="16077"
+   last-author="junsle"
+   url="https://vcs.dev.kthcorp.com:8443/pudding/trunk/GCM/res"
+   committed-rev="16077"
+   kind="dir"
+   committed-date="2012-11-21T06:33:12.213000Z"/>
+<entry
+   name="drawable-hdpi"
+   kind="dir"/>
+<entry
+   name="drawable-ldpi"
+   kind="dir"/>
+<entry
+   name="drawable-mdpi"
+   kind="dir"/>
+<entry
+   name="drawable-xhdpi"
+   kind="dir"/>
+<entry
+   name="layout"
+   kind="dir"/>
+<entry
+   name="menu"
+   kind="dir"/>
+<entry
+   name="values"
+   kind="dir"/>
+<entry
+   name="values-v11"
+   kind="dir"/>
+<entry
+   name="values-v14"
+   kind="dir"/>
+</wc-entries>

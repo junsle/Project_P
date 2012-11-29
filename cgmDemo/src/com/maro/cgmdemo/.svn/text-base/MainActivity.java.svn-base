@@ -1,0 +1,88 @@
+package com.maro.cgmdemo;
+
+import java.io.IOException;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Handler;
+import android.util.Log;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+
+import com.google.android.gcm.GCMRegistrar;
+import com.google.android.gcm.server.Message;
+import com.google.android.gcm.server.Result;
+import com.google.android.gcm.server.Sender;
+
+public class MainActivity extends Activity {
+	final static String SENDER_ID = "736501510376"; // GCM 프로젝트 생성 시 발급 받은 ID
+
+	static Handler mHandler = null;
+	static String regId = "";
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		mHandler = new Handler();
+		GCMRegistrar.checkDevice(this);
+		GCMRegistrar.checkManifest(this);
+		regId = GCMRegistrar.getRegistrationId(this);
+		if (regId.equals("")) {
+			GCMRegistrar.register(this, SENDER_ID);
+			Log.v("Main",
+					"Already registered ("
+							+ GCMRegistrar.getRegistrationId(this) + ")");
+		} else {
+			Log.v("Main", "Already registered (" + regId + ")");
+		}
+
+		findViewById(R.id.button1).setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				new Thread(new Runnable() {
+
+					@Override
+					public void run() {
+						// 서버 등록시 발급받은 코드를 토대로
+						Sender sender = new Sender(
+								"AIzaSyCIMwIFaA3FY0amqNP0feriAh226z3BOxg");
+						Message message = new Message.Builder()
+								.collapseKey(
+										String.valueOf(Math.random() % 100 + 1))
+								.delayWhileIdle(true).timeToLive(3)
+								.addData("no", "1").addData("title", "Hello")
+								.addData("msg", "GCM TEST").build();
+						try {
+							Log.d("GCMIntentService", "send!");
+							Result result = sender.send(message, regId, 5);
+
+							Log.v("GCMIntentService",
+									"result : "
+											+ result.getCanonicalRegistrationId());
+						} catch (IOException e) {
+							e.printStackTrace();
+						}
+					}
+				}).start();
+
+			}
+		});
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		return true;
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+		if (!GCMRegistrar.getRegistrationId(this).equals("")) {
+			GCMRegistrar.unregister(this);
+		}
+	}
+
+}

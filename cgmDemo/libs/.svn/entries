@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://vcs.dev.kthcorp.com:8443/pudding"
+   name=""
+   revision="16077"
+   last-author="junsle"
+   url="https://vcs.dev.kthcorp.com:8443/pudding/trunk/GCM/libs"
+   committed-rev="16077"
+   kind="dir"
+   committed-date="2012-11-21T06:33:12.213000Z"/>
+<entry
+   name="android-support-v4.jar"
+   checksum="7b5efe58fd28cbc7fa8f9e88ab9c7d65"
+   last-author="junsle"
+   text-time="2012-11-21T05:03:59.502000Z"
+   committed-rev="16077"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"
+   prop-time="2012-11-21T06:32:31.911000Z"/>
+<entry
+   name="gcm-server.jar"
+   checksum="e1a9076b19ff7816adbad2cfc6ae6bb7"
+   last-author="junsle"
+   text-time="2012-11-21T05:40:53.195000Z"
+   committed-rev="16077"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"
+   prop-time="2012-11-21T06:32:31.740000Z"/>
+<entry
+   name="gcm.jar"
+   checksum="5cfcca9a886c7229d7837f26151b112a"
+   last-author="junsle"
+   text-time="2012-11-16T02:25:57.570000Z"
+   committed-rev="16077"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"
+   prop-time="2012-11-21T06:32:31.473000Z"/>
+<entry
+   name="json_simple-1.1.jar"
+   checksum="eb342044fc56be9ba49fbfc9789f1bb5"
+   last-author="junsle"
+   text-time="2012-11-21T05:45:33.759000Z"
+   committed-rev="16077"
+   kind="file"
+   committed-date="2012-11-21T06:33:12.213000Z"
+   prop-time="2012-11-21T06:32:31.264000Z"/>
+</wc-entries>
